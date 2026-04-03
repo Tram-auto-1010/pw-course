@@ -1,2 +1,85 @@
 Trong một folder mới được tạo ra, mình thực hiện các lệnh sau.
 Hãy liệt kê theo từng vùng sau khi thao tác một loạt các lệnh sau
+
+a. Tạo 3 file: file 1, file 2, file 3
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + Không có file nào cả
+- Repository
+  + Không có file nào cả
+
+
+b. Chạy lệnh: git init
+- Lệnh này chỉ để khởi tạo repo nên chỉ chạy 1 lần duy nhất 
+(các lần sau chạy sẽ không có thay đổi gì cả)
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + Không có file nào cả
+- Repository
+  + Không có file nào cả
+
+
+c. Chạy lệnh: git commit -m"init project"
+- commit files ở vùng Staging Area sang vùng Repository với 
+message "init project"
+- Do vùng Staging Area chưa có file nào được add nên khi chạy lệnh này 
+sẽ không có thay đổi gì
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + Không có file nào cả
+- Repository
+  + Không có file nào cả
+
+d. Chạy lệnh: git add file1
+- add file1 đến vùng Staging Area
+- file1 sẽ thuộc vùng Staging Area
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + file1
+- Repository
+  + Không có file nào cả
+
+
+e. Chạy lệnh: git commit -m"add file1"
+- chỉ commit file1 đến vùng Repository (file1 đã được add vào Staging Area trước đó)
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + file1
+- Repository
+  + Không có file nào cả
+
+
+f. Chạy lệnh: git commit -m"add file"
+- commit files ở vùng Staging Area sang vùng Repository với 
+message "add file"
+- Do vùng Staging Area không có file nào được add thêm nên khi chạy lệnh này 
+sẽ không có thay đổi gì
+
+- Working Directory 
+  + file1
+  + file2
+  + file3
+- Staging Area
+  + Không có file nào cả
+- Repository
+  + Không có file nào cả
