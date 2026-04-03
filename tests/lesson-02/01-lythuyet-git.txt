@@ -1,0 +1,16 @@
+1. Git init: 
+- khởi tạo repo local
+- làm 1 lần duy nhất
+- các file khởi tạo xong sẽ nằm ở vùng Working Directory
+2. git add <file_name>
+- add các file mới vào vùng Staging Area
+- muốn add bao nhiêu file thì thực hiện lệnh này bấy nhiêu lần
+3. git add .
+- muốn add toàn bộ các file còn lại
+- "." ở đây là bao gồm các file còn lại ở vùng Working Directory 
+vào vùng Staging Area
+4. git commit -m"message"
+- commit file
+- tất cả các file trong vùng Staging Area sẽ đưa đưa qua vùng 
+và tạo thêm 1 phiên bản Repository
+- commit mới nó sẽ nằm phía trên

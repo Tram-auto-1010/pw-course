@@ -1,0 +1,2 @@
+Trong một folder mới được tạo ra, mình thực hiện các lệnh sau.
+Hãy liệt kê theo từng vùng sau khi thao tác một loạt các lệnh sau
