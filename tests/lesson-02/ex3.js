@@ -1,13 +1,10 @@
 const number = 3;
-if (number > 0)
-{
+if (number > 0) {
     console.log("Giá trị bạn nhập là số dương");
 }
-else if (number < 0)
-{
+else if (number < 0) {
     console.log("Giá trị bạn nhập là số âm");
 }
-else
-{
+else {
     console.log("Giá trị bạn nhập là số 0");
 }
