@@ -1,0 +1,6 @@
+git commit --amend: 
+- sửa đổi commit gần nhất (update message, thêm/bớt file) thay vì tạo commit mới
+- mở giao diện VIM, sửa message dựa trên giao diện này 
+git commit --amend -m"<message>": sửa commit message
+git restore --staged <file>: đưa file từ vùng Staging về vùng Working directory 
+git reset HEAD~1: reset 1 commit mới nhất từ vùng Repository về vùng Working directory
